@@ -1,0 +1,6 @@
+version: '1'
+rules:
+- base: master
+  upstream: joydo:master
+  mergeMethod: merge
+  mergeUnstable: false
